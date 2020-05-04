@@ -45,7 +45,7 @@ class Solution {
             }    
         }    
 
-      print('Most Repeated Word: ${word} and max count is ${maxCount}');
+      print('Most Repeated Word in File is: ${word} and max count is ${maxCount}');
   }
   
   void calculateLineWithHighestFrequency() {
@@ -77,7 +77,7 @@ class Solution {
               }    
         }    
 
-      print('Most Repeated Word: ${word} and max count is ${maxCount}');
+      print('Most Repeated Word in line is: ${word} and max count is ${maxCount}');
       },
       onDone: () { print('File is now closed.'); },
       onError: (e) { print(e.toString()); });
